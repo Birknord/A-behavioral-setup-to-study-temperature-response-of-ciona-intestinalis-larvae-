@@ -5,7 +5,7 @@
 
 /************ Global tweaks ****************************************/
 const float   COOL_OVERSHOOT_FACTOR = 2.0;
-const uint8_t COOL_MIN_PWM         = 1300;
+const uint8_t COOL_MIN_PWM         = 200;
 
 /************ Nextion & serial *************************************/
 SoftwareSerial mySerial(3, 4);
